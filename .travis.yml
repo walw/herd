@@ -3,5 +3,5 @@ jdk:
 install:
   - npm install -g bower
 script:
-  - mvn clean install -DskipTests=true -Pnpm-skip-test -q > /dev/null
+  - mvn deploy
 ##
